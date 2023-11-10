@@ -2,7 +2,9 @@
   <div class="card-header bg-dark bg-gradient ml-0 py-3">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="text-white py-2">Create Friend</h2>
+        <h2 class="text-white py-2"> 
+          <%= (@friend.new_record?) ? "Create" : "Update" %> Friend
+       </h2>
       </div>
     </div>
   </div>
